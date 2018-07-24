@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A93ECC60F18A8C0DA8C1A306 /* libPods-LYNibBridgeDemo-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37DFE5B2C40CD8110DBDA5D1 /* libPods-LYNibBridgeDemo-iOS.a */; };
+		C928CB492106F9800075A51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB482106F9800075A51F /* AppDelegate.m */; };
+		C928CB4C2106F9800075A51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB4B2106F9800075A51F /* ViewController.m */; };
+		C928CB4F2106F9800075A51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928CB4D2106F9800075A51F /* Main.storyboard */; };
+		C928CB512106F9810075A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928CB502106F9810075A51F /* Assets.xcassets */; };
+		C928CB542106F9810075A51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928CB522106F9810075A51F /* LaunchScreen.storyboard */; };
+		C928CB572106F9810075A51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB562106F9810075A51F /* main.m */; };
+		C928CB88210700560075A51F /* LYBridgeTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C928CB87210700560075A51F /* LYBridgeTestView.xib */; };
+		C928CB8B210702F50075A51F /* LYBridgeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB8A210702F50075A51F /* LYBridgeTestView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		191F248D65CF563668D190A5 /* Pods-LYNibBridgeDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNibBridgeDemo-iOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LYNibBridgeDemo-iOS/Pods-LYNibBridgeDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		37DFE5B2C40CD8110DBDA5D1 /* libPods-LYNibBridgeDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYNibBridgeDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E55F56563DCFAC4F718C620 /* Pods-LYNibBridgeDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNibBridgeDemo-iOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LYNibBridgeDemo-iOS/Pods-LYNibBridgeDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C928CB442106F9800075A51F /* LYNibBridgeDemo-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LYNibBridgeDemo-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928CB472106F9800075A51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C928CB482106F9800075A51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C928CB4A2106F9800075A51F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C928CB4B2106F9800075A51F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C928CB4E2106F9800075A51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C928CB502106F9810075A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C928CB532106F9810075A51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C928CB552106F9810075A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C928CB562106F9810075A51F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C928CB87210700560075A51F /* LYBridgeTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYBridgeTestView.xib; sourceTree = "<group>"; };
+		C928CB89210702F50075A51F /* LYBridgeTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBridgeTestView.h; sourceTree = "<group>"; };
+		C928CB8A210702F50075A51F /* LYBridgeTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBridgeTestView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C928CB412106F9800075A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A93ECC60F18A8C0DA8C1A306 /* libPods-LYNibBridgeDemo-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A86A2A7E9899B29CDD62310 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37DFE5B2C40CD8110DBDA5D1 /* libPods-LYNibBridgeDemo-iOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		471E35635080E15E2B95ECBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E55F56563DCFAC4F718C620 /* Pods-LYNibBridgeDemo-iOS.debug.xcconfig */,
+				191F248D65CF563668D190A5 /* Pods-LYNibBridgeDemo-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C928CB3B2106F9800075A51F = {
+			isa = PBXGroup;
+			children = (
+				C928CB462106F9800075A51F /* LYNibBridgeDemo-iOS */,
+				C928CB452106F9800075A51F /* Products */,
+				471E35635080E15E2B95ECBE /* Pods */,
+				1A86A2A7E9899B29CDD62310 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C928CB452106F9800075A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB442106F9800075A51F /* LYNibBridgeDemo-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C928CB462106F9800075A51F /* LYNibBridgeDemo-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB472106F9800075A51F /* AppDelegate.h */,
+				C928CB482106F9800075A51F /* AppDelegate.m */,
+				C928CB4A2106F9800075A51F /* ViewController.h */,
+				C928CB4B2106F9800075A51F /* ViewController.m */,
+				C928CB832107002F0075A51F /* BridgeViews */,
+				C928CB4D2106F9800075A51F /* Main.storyboard */,
+				C928CB502106F9810075A51F /* Assets.xcassets */,
+				C928CB522106F9810075A51F /* LaunchScreen.storyboard */,
+				C928CB552106F9810075A51F /* Info.plist */,
+				C928CB562106F9810075A51F /* main.m */,
+			);
+			path = "LYNibBridgeDemo-iOS";
+			sourceTree = "<group>";
+		};
+		C928CB832107002F0075A51F /* BridgeViews */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB89210702F50075A51F /* LYBridgeTestView.h */,
+				C928CB8A210702F50075A51F /* LYBridgeTestView.m */,
+				C928CB87210700560075A51F /* LYBridgeTestView.xib */,
+			);
+			path = BridgeViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C928CB432106F9800075A51F /* LYNibBridgeDemo-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C928CB5A2106F9810075A51F /* Build configuration list for PBXNativeTarget "LYNibBridgeDemo-iOS" */;
+			buildPhases = (
+				244A244F3DD440EB818DBD37 /* [CP] Check Pods Manifest.lock */,
+				C928CB402106F9800075A51F /* Sources */,
+				C928CB412106F9800075A51F /* Frameworks */,
+				C928CB422106F9800075A51F /* Resources */,
+				A96861C84F0DF2FF6D5B9BA0 /* [CP] Embed Pods Frameworks */,
+				139963F9C3B56637C7EF1781 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LYNibBridgeDemo-iOS";
+			productName = "LYNibBridgeDemo-iOS";
+			productReference = C928CB442106F9800075A51F /* LYNibBridgeDemo-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C928CB3C2106F9800075A51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Lusty;
+				TargetAttributes = {
+					C928CB432106F9800075A51F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C928CB3F2106F9800075A51F /* Build configuration list for PBXProject "LYNibBridgeDemo-iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C928CB3B2106F9800075A51F;
+			productRefGroup = C928CB452106F9800075A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C928CB432106F9800075A51F /* LYNibBridgeDemo-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C928CB422106F9800075A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928CB542106F9810075A51F /* LaunchScreen.storyboard in Resources */,
+				C928CB512106F9810075A51F /* Assets.xcassets in Resources */,
+				C928CB88210700560075A51F /* LYBridgeTestView.xib in Resources */,
+				C928CB4F2106F9800075A51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		139963F9C3B56637C7EF1781 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LYNibBridgeDemo-iOS/Pods-LYNibBridgeDemo-iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		244A244F3DD440EB818DBD37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYNibBridgeDemo-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A96861C84F0DF2FF6D5B9BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LYNibBridgeDemo-iOS/Pods-LYNibBridgeDemo-iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C928CB402106F9800075A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928CB4C2106F9800075A51F /* ViewController.m in Sources */,
+				C928CB572106F9810075A51F /* main.m in Sources */,
+				C928CB8B210702F50075A51F /* LYBridgeTestView.m in Sources */,
+				C928CB492106F9800075A51F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C928CB4D2106F9800075A51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C928CB4E2106F9800075A51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C928CB522106F9810075A51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C928CB532106F9810075A51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C928CB582106F9810075A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C928CB592106F9810075A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C928CB5B2106F9810075A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E55F56563DCFAC4F718C620 /* Pods-LYNibBridgeDemo-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FUKSQA3HM;
+				INFOPLIST_FILE = "LYNibBridgeDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lustySwimmer.LYNibBridgeDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C928CB5C2106F9810075A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 191F248D65CF563668D190A5 /* Pods-LYNibBridgeDemo-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3FUKSQA3HM;
+				INFOPLIST_FILE = "LYNibBridgeDemo-iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lustySwimmer.LYNibBridgeDemo-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C928CB3F2106F9800075A51F /* Build configuration list for PBXProject "LYNibBridgeDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928CB582106F9810075A51F /* Debug */,
+				C928CB592106F9810075A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C928CB5A2106F9810075A51F /* Build configuration list for PBXNativeTarget "LYNibBridgeDemo-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928CB5B2106F9810075A51F /* Debug */,
+				C928CB5C2106F9810075A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C928CB3C2106F9800075A51F /* Project object */;
+}

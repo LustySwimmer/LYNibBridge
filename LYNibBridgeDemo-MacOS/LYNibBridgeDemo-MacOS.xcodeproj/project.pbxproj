@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1406163ED0B8644C1A0C904D /* libPods-LYNibBridgeDemo-MacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AF3C0614C7A51A1C5C972F /* libPods-LYNibBridgeDemo-MacOS.a */; };
+		C928CB6B2106F9C10075A51F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB6A2106F9C10075A51F /* AppDelegate.m */; };
+		C928CB6E2106F9C10075A51F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB6D2106F9C10075A51F /* ViewController.m */; };
+		C928CB702106F9C20075A51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C928CB6F2106F9C20075A51F /* Assets.xcassets */; };
+		C928CB732106F9C20075A51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C928CB712106F9C20075A51F /* Main.storyboard */; };
+		C928CB762106F9C20075A51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB752106F9C20075A51F /* main.m */; };
+		C928CB802106FA690075A51F /* LYBridgeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB7F2106FA690075A51F /* LYBridgeTestView.m */; };
+		C928CB822106FB1A0075A51F /* LYBridgeTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C928CB812106FB1A0075A51F /* LYBridgeTestView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		210B066DF23BBB7F0F85DA8C /* Pods-LYNibBridgeDemo-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNibBridgeDemo-MacOS.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-LYNibBridgeDemo-MacOS/Pods-LYNibBridgeDemo-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C928CB662106F9C10075A51F /* LYNibBridgeDemo-MacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LYNibBridgeDemo-MacOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C928CB692106F9C10075A51F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C928CB6A2106F9C10075A51F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C928CB6C2106F9C10075A51F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C928CB6D2106F9C10075A51F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C928CB6F2106F9C20075A51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C928CB722106F9C20075A51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C928CB742106F9C20075A51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C928CB752106F9C20075A51F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C928CB772106F9C20075A51F /* LYNibBridgeDemo_MacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LYNibBridgeDemo_MacOS.entitlements; sourceTree = "<group>"; };
+		C928CB7E2106FA690075A51F /* LYBridgeTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBridgeTestView.h; sourceTree = "<group>"; };
+		C928CB7F2106FA690075A51F /* LYBridgeTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBridgeTestView.m; sourceTree = "<group>"; };
+		C928CB812106FB1A0075A51F /* LYBridgeTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYBridgeTestView.xib; sourceTree = "<group>"; };
+		D69A2381879B02F3A9DAAC1D /* Pods-LYNibBridgeDemo-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNibBridgeDemo-MacOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LYNibBridgeDemo-MacOS/Pods-LYNibBridgeDemo-MacOS.release.xcconfig"; sourceTree = "<group>"; };
+		F6AF3C0614C7A51A1C5C972F /* libPods-LYNibBridgeDemo-MacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYNibBridgeDemo-MacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C928CB632106F9C10075A51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1406163ED0B8644C1A0C904D /* libPods-LYNibBridgeDemo-MacOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0398C7BFF6A185F71C73EEF1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210B066DF23BBB7F0F85DA8C /* Pods-LYNibBridgeDemo-MacOS.debug.xcconfig */,
+				D69A2381879B02F3A9DAAC1D /* Pods-LYNibBridgeDemo-MacOS.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C928CB5D2106F9C10075A51F = {
+			isa = PBXGroup;
+			children = (
+				C928CB682106F9C10075A51F /* LYNibBridgeDemo-MacOS */,
+				C928CB672106F9C10075A51F /* Products */,
+				0398C7BFF6A185F71C73EEF1 /* Pods */,
+				EA9ADA86374F00FAFBA2D7E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C928CB672106F9C10075A51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB662106F9C10075A51F /* LYNibBridgeDemo-MacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C928CB682106F9C10075A51F /* LYNibBridgeDemo-MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB692106F9C10075A51F /* AppDelegate.h */,
+				C928CB6A2106F9C10075A51F /* AppDelegate.m */,
+				C928CB6C2106F9C10075A51F /* ViewController.h */,
+				C928CB6D2106F9C10075A51F /* ViewController.m */,
+				C928CB7D2106FA4C0075A51F /* BridgeViews */,
+				C928CB6F2106F9C20075A51F /* Assets.xcassets */,
+				C928CB712106F9C20075A51F /* Main.storyboard */,
+				C928CB742106F9C20075A51F /* Info.plist */,
+				C928CB752106F9C20075A51F /* main.m */,
+				C928CB772106F9C20075A51F /* LYNibBridgeDemo_MacOS.entitlements */,
+			);
+			path = "LYNibBridgeDemo-MacOS";
+			sourceTree = "<group>";
+		};
+		C928CB7D2106FA4C0075A51F /* BridgeViews */ = {
+			isa = PBXGroup;
+			children = (
+				C928CB7E2106FA690075A51F /* LYBridgeTestView.h */,
+				C928CB7F2106FA690075A51F /* LYBridgeTestView.m */,
+				C928CB812106FB1A0075A51F /* LYBridgeTestView.xib */,
+			);
+			path = BridgeViews;
+			sourceTree = "<group>";
+		};
+		EA9ADA86374F00FAFBA2D7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6AF3C0614C7A51A1C5C972F /* libPods-LYNibBridgeDemo-MacOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C928CB652106F9C10075A51F /* LYNibBridgeDemo-MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C928CB7A2106F9C20075A51F /* Build configuration list for PBXNativeTarget "LYNibBridgeDemo-MacOS" */;
+			buildPhases = (
+				70417BBDA0496C0BA687CDB6 /* [CP] Check Pods Manifest.lock */,
+				C928CB622106F9C10075A51F /* Sources */,
+				C928CB632106F9C10075A51F /* Frameworks */,
+				C928CB642106F9C10075A51F /* Resources */,
+				D6225803364E143924F2B5F4 /* [CP] Embed Pods Frameworks */,
+				7D3472D6DA2AF0580022C4E9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LYNibBridgeDemo-MacOS";
+			productName = "LYNibBridgeDemo-MacOS";
+			productReference = C928CB662106F9C10075A51F /* LYNibBridgeDemo-MacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C928CB5E2106F9C10075A51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Lusty;
+				TargetAttributes = {
+					C928CB652106F9C10075A51F = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C928CB612106F9C10075A51F /* Build configuration list for PBXProject "LYNibBridgeDemo-MacOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C928CB5D2106F9C10075A51F;
+			productRefGroup = C928CB672106F9C10075A51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C928CB652106F9C10075A51F /* LYNibBridgeDemo-MacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C928CB642106F9C10075A51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928CB822106FB1A0075A51F /* LYBridgeTestView.xib in Resources */,
+				C928CB702106F9C20075A51F /* Assets.xcassets in Resources */,
+				C928CB732106F9C20075A51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70417BBDA0496C0BA687CDB6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYNibBridgeDemo-MacOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D3472D6DA2AF0580022C4E9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LYNibBridgeDemo-MacOS/Pods-LYNibBridgeDemo-MacOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6225803364E143924F2B5F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-LYNibBridgeDemo-MacOS/Pods-LYNibBridgeDemo-MacOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C928CB622106F9C10075A51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C928CB6E2106F9C10075A51F /* ViewController.m in Sources */,
+				C928CB762106F9C20075A51F /* main.m in Sources */,
+				C928CB802106FA690075A51F /* LYBridgeTestView.m in Sources */,
+				C928CB6B2106F9C10075A51F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C928CB712106F9C20075A51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C928CB722106F9C20075A51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C928CB782106F9C20075A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C928CB792106F9C20075A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C928CB7B2106F9C20075A51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210B066DF23BBB7F0F85DA8C /* Pods-LYNibBridgeDemo-MacOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LYNibBridgeDemo-MacOS/LYNibBridgeDemo_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3FUKSQA3HM;
+				INFOPLIST_FILE = "LYNibBridgeDemo-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lustySwimmer.LYNibBridgeDemo-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C928CB7C2106F9C20075A51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D69A2381879B02F3A9DAAC1D /* Pods-LYNibBridgeDemo-MacOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "LYNibBridgeDemo-MacOS/LYNibBridgeDemo_MacOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3FUKSQA3HM;
+				INFOPLIST_FILE = "LYNibBridgeDemo-MacOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lustySwimmer.LYNibBridgeDemo-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C928CB612106F9C10075A51F /* Build configuration list for PBXProject "LYNibBridgeDemo-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928CB782106F9C20075A51F /* Debug */,
+				C928CB792106F9C20075A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C928CB7A2106F9C20075A51F /* Build configuration list for PBXNativeTarget "LYNibBridgeDemo-MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C928CB7B2106F9C20075A51F /* Debug */,
+				C928CB7C2106F9C20075A51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C928CB5E2106F9C10075A51F /* Project object */;
+}
