@@ -17,27 +17,30 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="FFH-9l-Gaf">
-                    <rect key="frame" x="127" y="249.5" width="121" height="168.5"/>
+                    <rect key="frame" x="62.5" y="189.5" width="250" height="288.5"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LS6-A6-Phh">
-                            <rect key="frame" x="0.0" y="0.0" width="121" height="20.5"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一个自定义桥接视图" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LS6-A6-Phh">
+                            <rect key="frame" x="0.0" y="0.0" width="250" height="20.5"/>
                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="00w-e6-Ttd">
-                            <rect key="frame" x="0.0" y="40.5" width="121" height="29"/>
+                            <rect key="frame" x="0.0" y="40.5" width="250" height="29"/>
                             <segments>
-                                <segment title="First"/>
-                                <segment title="Second"/>
+                                <segment title="美女"/>
+                                <segment title="一般啦"/>
                             </segments>
                         </segmentedControl>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d9C-hP-QJV">
-                            <rect key="frame" x="0.0" y="88.5" width="121" height="30"/>
-                            <state key="normal" title="Button"/>
-                        </button>
-                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZyQ-Ul-31T">
-                            <rect key="frame" x="0.0" y="138.5" width="121" height="30"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="timg" translatesAutoresizingMaskIntoConstraints="NO" id="BPb-cm-yni">
+                            <rect key="frame" x="0.0" y="88.5" width="250" height="150"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="250" id="NHz-5N-krk"/>
+                                <constraint firstAttribute="height" constant="150" id="hFy-rM-8Hg"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="快来抢沙发吧" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ZyQ-Ul-31T">
+                            <rect key="frame" x="0.0" y="258.5" width="250" height="30"/>
                             <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
@@ -53,4 +56,7 @@
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
         </view>
     </objects>
+    <resources>
+        <image name="timg" width="960" height="580"/>
+    </resources>
 </document>

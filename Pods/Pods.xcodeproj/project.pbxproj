@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004A91AAC7436F178F2C77B27178E0D4 /* LYNibBridgeCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD32E1511D1CA2E4C6EDB939D78E048 /* LYNibBridgeCompat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		004A91AAC7436F178F2C77B27178E0D4 /* LYNibBridgeCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C33F5008FA4BBA694A0724113E29EE9 /* LYNibBridgeCompat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1CF41A5289F5BD34AE90EE6392329060 /* Pods-LYNibBridgeDemo-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AAAF668090DFB1CED1429B5AE2950FF3 /* Pods-LYNibBridgeDemo-iOS-dummy.m */; };
-		29EAB283F83FC26AF8AD6B88BF147BCF /* LYNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA28734939EF57869614251ED1EE85B /* LYNibConvention.m */; };
-		3FC4C2CA3B6D114644E427E0F795D1AC /* LYNibConvention.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C9BAA60D753EE14BE99F914A081452 /* LYNibConvention.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4749359A8D658AC849A726B188BDEFD0 /* LYNibBridge-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9DB90D426033C3BFE002C68E42748E /* LYNibBridge-macOS-dummy.m */; };
+		29EAB283F83FC26AF8AD6B88BF147BCF /* LYNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D4FE39972DCDCFB3B3BF6C52C764E /* LYNibConvention.m */; };
+		3FC4C2CA3B6D114644E427E0F795D1AC /* LYNibConvention.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CCAA2355D7D04E5C78137D12031A5C /* LYNibConvention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4749359A8D658AC849A726B188BDEFD0 /* LYNibBridge-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BA2529219A42BC7DD876F488B1A2F6 /* LYNibBridge-macOS-dummy.m */; };
 		48641F4038BE0FA61717A73BA2F9D284 /* Pods-LYNibBridgeDemo-MacOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70FEE3B3020EE58855CEED02BA1B4739 /* Pods-LYNibBridgeDemo-MacOS-dummy.m */; };
 		4D0979B2B4312E8E628FA79ADAC41EA5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895AF1640E6ABA030D3062270D85A866 /* Cocoa.framework */; };
-		56D5785E69F7B45C04A06FCAC4529194 /* LYNibBridgeCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD32E1511D1CA2E4C6EDB939D78E048 /* LYNibBridgeCompat.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		56D5785E69F7B45C04A06FCAC4529194 /* LYNibBridgeCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C33F5008FA4BBA694A0724113E29EE9 /* LYNibBridgeCompat.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5BC6488FD02C497D01B79183AAC6EA2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32B4593E968E134FABFC93FCC61B6776 /* Foundation.framework */; };
-		6599F9FE0F5C82E6BD2CB7FDDBF79E65 /* LYNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = FBA28734939EF57869614251ED1EE85B /* LYNibConvention.m */; };
+		6599F9FE0F5C82E6BD2CB7FDDBF79E65 /* LYNibConvention.m in Sources */ = {isa = PBXBuildFile; fileRef = 052D4FE39972DCDCFB3B3BF6C52C764E /* LYNibConvention.m */; };
 		79262603B47F57AE82DE2B0E46C4D239 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DFDE70F8890A2EE841E061CD964FCD /* Foundation.framework */; };
-		7E15343695D582C2A8F1AE28A32BF4A6 /* LYNibConvention.h in Headers */ = {isa = PBXBuildFile; fileRef = 10C9BAA60D753EE14BE99F914A081452 /* LYNibConvention.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E15343695D582C2A8F1AE28A32BF4A6 /* LYNibConvention.h in Headers */ = {isa = PBXBuildFile; fileRef = 53CCAA2355D7D04E5C78137D12031A5C /* LYNibConvention.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		CE36FDC6C397FB58B181890593E2E21E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33DFDE70F8890A2EE841E061CD964FCD /* Foundation.framework */; };
 		E25439391C6D371C7F0024811AD277E2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895AF1640E6ABA030D3062270D85A866 /* Cocoa.framework */; };
-		FDA024E14FB2FDE25921FF9A099C9BA2 /* LYNibBridge-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 560D94C771C88DC22FF79459D512C3DA /* LYNibBridge-iOS-dummy.m */; };
+		FDA024E14FB2FDE25921FF9A099C9BA2 /* LYNibBridge-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6002F8F04C58F2F4965156A634CE55 /* LYNibBridge-iOS-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,37 +43,39 @@
 
 /* Begin PBXFileReference section */
 		015E670B254D5296187E077FF7825AE5 /* Pods-LYNibBridgeDemo-MacOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYNibBridgeDemo-MacOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		052D4FE39972DCDCFB3B3BF6C52C764E /* LYNibConvention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYNibConvention.m; path = LYNibBridge/LYNibConvention.m; sourceTree = "<group>"; };
 		0B14D73376A9B6CAF15D7EDC0AD86D0B /* Pods-LYNibBridgeDemo-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYNibBridgeDemo-iOS.release.xcconfig"; sourceTree = "<group>"; };
-		10C9BAA60D753EE14BE99F914A081452 /* LYNibConvention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYNibConvention.h; path = LYNibBridge/LYNibConvention.h; sourceTree = "<group>"; };
-		19F892306B7C0AFC61513458A5D6B856 /* LYNibBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LYNibBridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1D9DB90D426033C3BFE002C68E42748E /* LYNibBridge-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LYNibBridge-macOS-dummy.m"; path = "../LYNibBridge-macOS/LYNibBridge-macOS-dummy.m"; sourceTree = "<group>"; };
-		22CCB7C2CAB2FF8B9C57EEADD54206EB /* LYNibBridge-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYNibBridge-iOS-prefix.pch"; sourceTree = "<group>"; };
+		1B5992B8BA0D1400E89D225CDB04127B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		2464E9A60D52D1BBE690D779437D5398 /* Pods-LYNibBridgeDemo-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYNibBridgeDemo-iOS-frameworks.sh"; sourceTree = "<group>"; };
 		25A09A49395D06B55134D3DB04086D80 /* Pods-LYNibBridgeDemo-MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYNibBridgeDemo-MacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2C33F5008FA4BBA694A0724113E29EE9 /* LYNibBridgeCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYNibBridgeCompat.h; path = LYNibBridge/LYNibBridgeCompat.h; sourceTree = "<group>"; };
 		32B4593E968E134FABFC93FCC61B6776 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33DFDE70F8890A2EE841E061CD964FCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4AD32E1511D1CA2E4C6EDB939D78E048 /* LYNibBridgeCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYNibBridgeCompat.h; path = LYNibBridge/LYNibBridgeCompat.h; sourceTree = "<group>"; };
+		4C1D354A3C2FE743D3892CCF06CCC98C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		53CCAA2355D7D04E5C78137D12031A5C /* LYNibConvention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYNibConvention.h; path = LYNibBridge/LYNibConvention.h; sourceTree = "<group>"; };
 		559BE29A0E6BD40B091B92669A4C2C58 /* Pods-LYNibBridgeDemo-MacOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYNibBridgeDemo-MacOS-resources.sh"; sourceTree = "<group>"; };
-		560D94C771C88DC22FF79459D512C3DA /* LYNibBridge-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYNibBridge-iOS-dummy.m"; sourceTree = "<group>"; };
 		5E4D5FBCC2764343290A236E7A7C575A /* Pods-LYNibBridgeDemo-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYNibBridgeDemo-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		68BA2529219A42BC7DD876F488B1A2F6 /* LYNibBridge-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "LYNibBridge-macOS-dummy.m"; path = "../LYNibBridge-macOS/LYNibBridge-macOS-dummy.m"; sourceTree = "<group>"; };
 		6F56B0E7B1A5454A1543C36EE78293DA /* libPods-LYNibBridgeDemo-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LYNibBridgeDemo-iOS.a"; path = "libPods-LYNibBridgeDemo-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70FEE3B3020EE58855CEED02BA1B4739 /* Pods-LYNibBridgeDemo-MacOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYNibBridgeDemo-MacOS-dummy.m"; sourceTree = "<group>"; };
-		71FC001C77EE46FB1B8EBABA0E77DC9B /* LYNibBridge-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LYNibBridge-iOS.xcconfig"; sourceTree = "<group>"; };
 		732FCDD7ADA5E07A3DFD0498DF19D127 /* libLYNibBridge-iOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLYNibBridge-iOS.a"; path = "libLYNibBridge-iOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7637BCF9189A6E8C83D48A7FC124A879 /* libPods-LYNibBridgeDemo-MacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LYNibBridgeDemo-MacOS.a"; path = "libPods-LYNibBridgeDemo-MacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7FCA6427D01A0B96E41EF2FEB4F643 /* LYNibBridge.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LYNibBridge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		895AF1640E6ABA030D3062270D85A866 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98984ECB9ABEA996E3EAB0D4594E4591 /* Pods-LYNibBridgeDemo-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYNibBridgeDemo-iOS-resources.sh"; sourceTree = "<group>"; };
 		999E16F97734A35D31B04A847B02541D /* libLYNibBridge-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libLYNibBridge-macOS.a"; path = "libLYNibBridge-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		99B2D87826AA984E9B559EBF392297CB /* LYNibBridge-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LYNibBridge-macOS-prefix.pch"; path = "../LYNibBridge-macOS/LYNibBridge-macOS-prefix.pch"; sourceTree = "<group>"; };
-		9CAD4EB595325B3FC774DF1E7A413F6E /* LYNibBridge-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LYNibBridge-macOS.xcconfig"; path = "../LYNibBridge-macOS/LYNibBridge-macOS.xcconfig"; sourceTree = "<group>"; };
+		9B62421B2C5FFFC9DD2EA9C7A0E56439 /* LYNibBridge-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "LYNibBridge-macOS.xcconfig"; path = "../LYNibBridge-macOS/LYNibBridge-macOS.xcconfig"; sourceTree = "<group>"; };
 		AAAF668090DFB1CED1429B5AE2950FF3 /* Pods-LYNibBridgeDemo-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYNibBridgeDemo-iOS-dummy.m"; sourceTree = "<group>"; };
 		ACD8243FC840A96EA13C9DD5C163CAA4 /* Pods-LYNibBridgeDemo-iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYNibBridgeDemo-iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B9B0F9D469CEA0DD081A9CFE62DAF1FD /* LYNibBridge-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "LYNibBridge-macOS-prefix.pch"; path = "../LYNibBridge-macOS/LYNibBridge-macOS-prefix.pch"; sourceTree = "<group>"; };
+		CEB1822996242CA9C1C55B92DEF02E7E /* LYNibBridge-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "LYNibBridge-iOS.xcconfig"; sourceTree = "<group>"; };
+		CF6002F8F04C58F2F4965156A634CE55 /* LYNibBridge-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYNibBridge-iOS-dummy.m"; sourceTree = "<group>"; };
 		DCB5010F368120AA45524F7D2BEED735 /* Pods-LYNibBridgeDemo-MacOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYNibBridgeDemo-MacOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		DCD4A005E7DA613E1751912AEBBB9283 /* Pods-LYNibBridgeDemo-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYNibBridgeDemo-MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		E97D59FD2DD74DE213AC5372C548CF3A /* Pods-LYNibBridgeDemo-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYNibBridgeDemo-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		F1C8C9A066304751D141A330696DE503 /* Pods-LYNibBridgeDemo-MacOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYNibBridgeDemo-MacOS-frameworks.sh"; sourceTree = "<group>"; };
-		FBA28734939EF57869614251ED1EE85B /* LYNibConvention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYNibConvention.m; path = LYNibBridge/LYNibConvention.m; sourceTree = "<group>"; };
+		FF72F02B0056FF5D4270D0F066BAD206 /* LYNibBridge-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYNibBridge-iOS-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +152,7 @@
 		3EC16A4046AE76AFEE1E54890CA8593E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				920333C50A57A9162225047D9614352F /* LYNibBridge */,
+				82259E02003D2D6694E15633CC386CFF /* LYNibBridge */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -170,15 +172,15 @@
 			path = "Target Support Files/Pods-LYNibBridgeDemo-MacOS";
 			sourceTree = "<group>";
 		};
-		7CE1E6EAF9DF25C5BD3E758A69EF99AE /* Support Files */ = {
+		6B662D7D6EC6646AC8993BE1AAA5F915 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71FC001C77EE46FB1B8EBABA0E77DC9B /* LYNibBridge-iOS.xcconfig */,
-				560D94C771C88DC22FF79459D512C3DA /* LYNibBridge-iOS-dummy.m */,
-				22CCB7C2CAB2FF8B9C57EEADD54206EB /* LYNibBridge-iOS-prefix.pch */,
-				9CAD4EB595325B3FC774DF1E7A413F6E /* LYNibBridge-macOS.xcconfig */,
-				1D9DB90D426033C3BFE002C68E42748E /* LYNibBridge-macOS-dummy.m */,
-				99B2D87826AA984E9B559EBF392297CB /* LYNibBridge-macOS-prefix.pch */,
+				CEB1822996242CA9C1C55B92DEF02E7E /* LYNibBridge-iOS.xcconfig */,
+				CF6002F8F04C58F2F4965156A634CE55 /* LYNibBridge-iOS-dummy.m */,
+				FF72F02B0056FF5D4270D0F066BAD206 /* LYNibBridge-iOS-prefix.pch */,
+				9B62421B2C5FFFC9DD2EA9C7A0E56439 /* LYNibBridge-macOS.xcconfig */,
+				68BA2529219A42BC7DD876F488B1A2F6 /* LYNibBridge-macOS-dummy.m */,
+				B9B0F9D469CEA0DD081A9CFE62DAF1FD /* LYNibBridge-macOS-prefix.pch */,
 			);
 			name = "Support Files";
 			path = "Pods/Target Support Files/LYNibBridge-iOS";
@@ -193,6 +195,19 @@
 				1887CC8EB7DA3EB6DDA0E704792776B0 /* Products */,
 				84A2C0F09029A8A0E7B7E427C2FB159F /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		82259E02003D2D6694E15633CC386CFF /* LYNibBridge */ = {
+			isa = PBXGroup;
+			children = (
+				2C33F5008FA4BBA694A0724113E29EE9 /* LYNibBridgeCompat.h */,
+				53CCAA2355D7D04E5C78137D12031A5C /* LYNibConvention.h */,
+				052D4FE39972DCDCFB3B3BF6C52C764E /* LYNibConvention.m */,
+				BCC10F3B40E094F23A994FC85E0528C4 /* Pod */,
+				6B662D7D6EC6646AC8993BE1AAA5F915 /* Support Files */,
+			);
+			name = LYNibBridge;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		84A2C0F09029A8A0E7B7E427C2FB159F /* Targets Support Files */ = {
@@ -213,27 +228,6 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		920333C50A57A9162225047D9614352F /* LYNibBridge */ = {
-			isa = PBXGroup;
-			children = (
-				4AD32E1511D1CA2E4C6EDB939D78E048 /* LYNibBridgeCompat.h */,
-				10C9BAA60D753EE14BE99F914A081452 /* LYNibConvention.h */,
-				FBA28734939EF57869614251ED1EE85B /* LYNibConvention.m */,
-				A82FB9B39786F9E7558861C322BEA5F0 /* Pod */,
-				7CE1E6EAF9DF25C5BD3E758A69EF99AE /* Support Files */,
-			);
-			name = LYNibBridge;
-			path = ..;
-			sourceTree = "<group>";
-		};
-		A82FB9B39786F9E7558861C322BEA5F0 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				19F892306B7C0AFC61513458A5D6B856 /* LYNibBridge.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		B3C2D6331B16C7BB39A27BBF5EF96D41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -241,6 +235,16 @@
 				8D5A5EA14C049DEA391539C019054FBB /* OS X */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC10F3B40E094F23A994FC85E0528C4 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1B5992B8BA0D1400E89D225CDB04127B /* LICENSE */,
+				7B7FCA6427D01A0B96E41EF2FEB4F643 /* LYNibBridge.podspec */,
+				4C1D354A3C2FE743D3892CCF06CCC98C /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -419,7 +423,7 @@
 /* Begin XCBuildConfiguration section */
 		160E724565C8493C19375DF88F9C5188 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CAD4EB595325B3FC774DF1E7A413F6E /* LYNibBridge-macOS.xcconfig */;
+			baseConfigurationReference = 9B62421B2C5FFFC9DD2EA9C7A0E56439 /* LYNibBridge-macOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
@@ -541,7 +545,7 @@
 		};
 		8FC1BAEF298A4B795A912724BE697760 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71FC001C77EE46FB1B8EBABA0E77DC9B /* LYNibBridge-iOS.xcconfig */;
+			baseConfigurationReference = CEB1822996242CA9C1C55B92DEF02E7E /* LYNibBridge-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -647,7 +651,7 @@
 		};
 		E9A0B0141BF0F884FE4151B0DA9B8C5D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CAD4EB595325B3FC774DF1E7A413F6E /* LYNibBridge-macOS.xcconfig */;
+			baseConfigurationReference = 9B62421B2C5FFFC9DD2EA9C7A0E56439 /* LYNibBridge-macOS.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "-";
@@ -669,7 +673,7 @@
 		};
 		F44475293A9CE91A8AD3F8CE85FAED79 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71FC001C77EE46FB1B8EBABA0E77DC9B /* LYNibBridge-iOS.xcconfig */;
+			baseConfigurationReference = CEB1822996242CA9C1C55B92DEF02E7E /* LYNibBridge-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

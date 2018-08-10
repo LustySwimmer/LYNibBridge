@@ -11,6 +11,29 @@
 
 @implementation UINibBridgeView
 
+#if TARGET_OS_OSX
+
++ (void)load {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        SEL originalSelector = NSSelectorFromString(@"dealloc");
+        SEL swizzledSelector = @selector(ly_dealloc);
+        Method originalMethod = class_getInstanceMethod(UINibBridgeView.class, originalSelector);
+        Method swizzledMethod = class_getInstanceMethod(self, swizzledSelector);
+        if (class_addMethod(UINibBridgeView.class, originalSelector, method_getImplementation(swizzledMethod), method_getTypeEncoding(swizzledMethod))) {
+            class_replaceMethod(UINibBridgeView.class, swizzledSelector, method_getImplementation(originalMethod), method_getTypeEncoding(originalMethod));
+        } else {
+            method_exchangeImplementations(originalMethod, swizzledMethod);
+        }
+    });
+}
+
+- (void)ly_dealloc {
+    
+}
+
+#endif
+
 @end
 
 @implementation UINibBridgeView (LYNibConvention)
@@ -128,7 +151,7 @@
 }
 
 - (id)hackedAwakeAfterUsingCoder:(NSCoder *)decoder {
-    NSLog(@"hackedAwakeAfterUsingCoder:=====%@",[self class]);
+//    NSLog(@"hackedAwakeAfterUsingCoder:=====%@",[self class]);
     if ([self.class conformsToProtocol:@protocol(LYNibConvention)] && ((UIView *)self).subviews.count == 0) {
         return [LYNibBridgeImplementation instantiateRealViewFromPlaceholder:(UIView *)self];
     }
@@ -137,8 +160,7 @@
 
 + (UIView *)instantiateRealViewFromPlaceholder:(UIView *)placeholderView {
     
-    // Required to conform `XXNibConvension`.
-    UIView *realView = [[placeholderView class] ly_instantiateFromNib];
+    UINibBridgeView *realView = [[placeholderView class] ly_instantiateFromNib];
     
     realView.frame = placeholderView.frame;
     realView.bounds = placeholderView.bounds;
@@ -151,7 +173,9 @@
     realView.canDrawConcurrently = placeholderView.canDrawConcurrently;
     realView.accessibilityEnabled = placeholderView.accessibilityEnabled;
     realView.appearance = placeholderView.appearance;
-    [[placeholderView superview] addSubview:realView];
+    if (![[placeholderView superview] isKindOfClass:[NSStackView class]]) {
+        [[placeholderView superview] addSubview:realView];
+    }
 #else
     realView.tag = placeholderView.tag;
     realView.clipsToBounds = placeholderView.clipsToBounds;
@@ -200,17 +224,6 @@
             }
         }
     }
-#if TARGET_OS_OSX
-    //problem exists use stackView as superview,you can embed it in an empty view
-    if ([[placeholderView superview] isKindOfClass:[NSStackView class]]) {
-//        NSStackView *superView = (NSStackView *)[placeholderView superview];
-//        [superView removeArrangedSubview:placeholderView];
-        NSAssert(NO, @"can't use stackView as it's superview");
-    } else {
-        [placeholderView removeFromSuperview];
-    }
-#endif
-    
     return realView;
 }
 

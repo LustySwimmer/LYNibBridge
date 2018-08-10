@@ -15,6 +15,7 @@
 		C928CB762106F9C20075A51F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB752106F9C20075A51F /* main.m */; };
 		C928CB802106FA690075A51F /* LYBridgeTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = C928CB7F2106FA690075A51F /* LYBridgeTestView.m */; };
 		C928CB822106FB1A0075A51F /* LYBridgeTestView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C928CB812106FB1A0075A51F /* LYBridgeTestView.xib */; };
+		C9420587211C4DDC0053871C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9420586211C4DDC0053871C /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		C928CB7E2106FA690075A51F /* LYBridgeTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBridgeTestView.h; sourceTree = "<group>"; };
 		C928CB7F2106FA690075A51F /* LYBridgeTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBridgeTestView.m; sourceTree = "<group>"; };
 		C928CB812106FB1A0075A51F /* LYBridgeTestView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYBridgeTestView.xib; sourceTree = "<group>"; };
+		C9420585211C4DDC0053871C /* TestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C9420586211C4DDC0053871C /* TestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 		D69A2381879B02F3A9DAAC1D /* Pods-LYNibBridgeDemo-MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYNibBridgeDemo-MacOS.release.xcconfig"; path = "../Pods/Target Support Files/Pods-LYNibBridgeDemo-MacOS/Pods-LYNibBridgeDemo-MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		F6AF3C0614C7A51A1C5C972F /* libPods-LYNibBridgeDemo-MacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LYNibBridgeDemo-MacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,6 +85,8 @@
 				C928CB6A2106F9C10075A51F /* AppDelegate.m */,
 				C928CB6C2106F9C10075A51F /* ViewController.h */,
 				C928CB6D2106F9C10075A51F /* ViewController.m */,
+				C9420585211C4DDC0053871C /* TestViewController.h */,
+				C9420586211C4DDC0053871C /* TestViewController.m */,
 				C928CB7D2106FA4C0075A51F /* BridgeViews */,
 				C928CB6F2106F9C20075A51F /* Assets.xcassets */,
 				C928CB712106F9C20075A51F /* Main.storyboard */,
@@ -238,6 +243,7 @@
 				C928CB762106F9C20075A51F /* main.m in Sources */,
 				C928CB802106FA690075A51F /* LYBridgeTestView.m in Sources */,
 				C928CB6B2106F9C10075A51F /* AppDelegate.m in Sources */,
+				C9420587211C4DDC0053871C /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

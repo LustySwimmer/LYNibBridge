@@ -6,8 +6,8 @@
 //  Copyright © 2018年 Lusty. All rights reserved.
 //
 
-#import "LYNibBridge.h"
+#import "LYNibConvention.h"
 
-@interface LYBridgeTestView : UINibBridgeView <LYNibBridge>
+@interface LYBridgeTestView : UINibBridgeView <LYNibConvention>
 
 @end

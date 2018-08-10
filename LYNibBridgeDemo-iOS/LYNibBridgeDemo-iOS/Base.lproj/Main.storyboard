@@ -26,22 +26,22 @@
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ceu-7J-es8" customClass="LYBridgeTestView">
                                                 <rect key="frame" x="0.0" y="0.0" width="335" height="300"/>
-                                                <color key="backgroundColor" red="1" green="0.26461297280000001" blue="0.31898253780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="0.65569565839999999" green="1" blue="0.44558231469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="300" id="4d7-cI-4l1"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h1L-oy-gJa" customClass="LYBridgeTestView">
                                                 <rect key="frame" x="0.0" y="310" width="335" height="300"/>
-                                                <color key="backgroundColor" red="1" green="0.26461297280000001" blue="0.31898253780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="0.29900731250000001" green="0.57440892399999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8BT-tp-pGK" customClass="LYBridgeTestView">
                                                 <rect key="frame" x="0.0" y="620" width="335" height="300"/>
-                                                <color key="backgroundColor" red="1" green="0.26461297280000001" blue="0.31898253780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="1" green="0.97939846580000001" blue="0.32893458879999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68D-pj-6ml" customClass="LYBridgeTestView">
                                                 <rect key="frame" x="0.0" y="930" width="335" height="300"/>
-                                                <color key="backgroundColor" red="1" green="0.26461297280000001" blue="0.31898253780000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <color key="backgroundColor" red="1" green="0.97939846580000001" blue="0.32893458879999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="q0Y-aF-QB3" customClass="LYBridgeTestView">
                                                 <rect key="frame" x="0.0" y="1240" width="335" height="300"/>

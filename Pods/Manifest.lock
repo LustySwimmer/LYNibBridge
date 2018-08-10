@@ -1,5 +1,5 @@
 PODS:
-  - LYNibBridge (1.0.0)
+  - LYNibBridge (1.1.0)
 
 DEPENDENCIES:
   - LYNibBridge (from `./`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ./
 
 SPEC CHECKSUMS:
-  LYNibBridge: 6827420476f6a97797ec95ba7d7be1ff848f0756
+  LYNibBridge: dc9b78a9cf19b97e46c7a43d39c13b0638500218
 
 PODFILE CHECKSUM: 32d16f8a107b40aa06dcf4c1c1baaa29927f04b5
 

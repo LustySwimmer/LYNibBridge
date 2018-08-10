@@ -1,6 +1,6 @@
 {
   "name": "LYNibBridge",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "summary": "Nib Bridge for iOS and MacOS",
   "homepage": "https://github.com/LustySwimmer/LYNibBridge",
   "authors": {
@@ -8,9 +8,13 @@
   },
   "source": {
     "git": "https://github.com/LustySwimmer/LYNibBridge.git",
-    "tag": "1.0.0"
+    "commit": "a26d672"
   },
   "frameworks": "Foundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
   "platforms": {
     "ios": "8.0",
     "osx": "10.10"

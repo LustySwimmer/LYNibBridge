@@ -28,14 +28,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.testViews = @[self.testView1, self.testView2, self.testView3, self.testView4, self.testView5, self.testView6, self.testView7, self.testView8];
-    for (LYBridgeTestView *testView in self.testViews) {
-        testView.wantsLayer = YES;
-        testView.layer.backgroundColor = [NSColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0].CGColor;
-    }
+//    self.testViews = @[self.testView1, self.testView2, self.testView3, self.testView4, self.testView5, self.testView6, self.testView7, self.testView8];
+//    for (LYBridgeTestView *testView in self.testViews) {
+//        testView.wantsLayer = YES;
+//        testView.layer.backgroundColor = [NSColor colorWithRed:arc4random_uniform(255)/255.0 green:arc4random_uniform(255)/255.0 blue:arc4random_uniform(255)/255.0 alpha:1.0].CGColor;
+//    }
     
 }
 
+- (IBAction)modelNewWindow:(id)sender {
+//    NSWindowController *windowController = [self.storyboard instantiateControllerWithIdentifier:@"TestWindowController"];
+//    NSApplication *application = [NSApplication sharedApplication];
+//    [application runModalForWindow:windowController.window];
+//    [windowController.window close];
+    
+    NSViewController *viewController = [self.storyboard instantiateControllerWithIdentifier:@"TestViewController"];
+    [self presentViewControllerAsModalWindow:viewController];
+}
 
 - (void)setRepresentedObject:(id)representedObject {
     [super setRepresentedObject:representedObject];
